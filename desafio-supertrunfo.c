@@ -24,13 +24,13 @@ int main() {
     printf("Cadastro da Carta 1:\n");
 
     printf("Digite o estado (letra de A a H): ");
-    scanf(" %c", &estado1); // espaço antes de %c para ignorar espaços anteriores
+    scanf(" %s", &estado1); // espaço antes de %c para ignorar espaços anteriores
 
     printf("Digite o código da carta (ex: A01): ");
     scanf("%s", codigo1);
 
     printf("Digite o nome da cidade: ");
-    scanf(" %[^\n]", nomeCidade1); // lê até nova linha (nome com espaços)
+    scanf(" %s", nomeCidade1); // lê até nova linha (nome com espaços)
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao1);
@@ -48,13 +48,13 @@ int main() {
     printf("\nCadastro da Carta 2:\n");
 
     printf("Digite o estado (letra de A a H): ");
-    scanf(" %c", &estado2);
+    scanf(" %s", &estado2);
 
     printf("Digite o código da carta (ex: B03): ");
     scanf("%s", codigo2);
 
     printf("Digite o nome da cidade: ");
-    scanf(" %c\n", nomeCidade2);
+    scanf(" %s", nomeCidade2);
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao2);
